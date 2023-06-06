@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rasa:wght@300&display=swap');
+
+
+.AlnwickGarden{
+    margin-left: 4vmin;
+}
+
+.alnwick-title{
+    font-size: 10vmin;
+    color: #01311F;
+    font-family: 'Jacques Francois', serif;
+}
+
+.alnwick-links-container{
+	display: flex;
+	flex-flow: column;
+    font-family: 'Rasa', serif;
+    font-size: 6vmin;
+}
+
+.alnwick-links{
+    margin-bottom: 3vmin;
+    text-decoration: none;
+    color: #000;
+}

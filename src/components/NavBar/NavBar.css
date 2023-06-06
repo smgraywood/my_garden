@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Rasa:wght@300&display=swap');
+
+.div-container{
+    width: 50%;
+}
+
+.NavBar {
+	background-size: cover;
+	width: 100%;
+	display: flex;
+	flex-flow: row nowrap;
+	margin: 0 auto;
+	width: 90%;
+    z-index: 9999;
+}
+
+.NavBar a {
+	font-family: 'Rasa', serif;
+	font-size: 3vmin;
+	color: #C6AB59;
+	text-decoration: none;
+    border: 2px #C6AB59 solid;
+    padding: 1vmin;
+
+}
+
+.NavBar a.active {
+    background-color: #F4F2EE;
+}

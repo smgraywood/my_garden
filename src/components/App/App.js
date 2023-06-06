@@ -1,4 +1,4 @@
-import MyGarden from '../../pages/myGarden/MyGrarden'
+import MyGarden from '../../pages/myGarden/MyGarden'
 import AlnwickGarden from '../../pages/alnwickGarden/AlnwickGarden'
 import HarmOrHealth from '../../pages/harmOrHealth/HarmOrHealth'
 import Search from '../../pages/search/Search'
