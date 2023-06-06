@@ -6,7 +6,7 @@ function NavBar(props) {
         <div className="div-container">
             <nav className="NavBar">
                 <NavLink
-                    to="/"
+                    to="/myGarden"
                     className={({ isActive, isPending }) =>
                         isPending ? "pending" : isActive ? "active" : ""
                     }

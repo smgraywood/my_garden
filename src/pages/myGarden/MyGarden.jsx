@@ -1,8 +1,11 @@
+import NavBar from "../../components/NavBar/NavBar";
+
 function MyGarden() {
 
 	return (
         <div>
-            This is the My Garden page.
+            <NavBar/>
+            this is the my garden page
         </div>
     )
 }

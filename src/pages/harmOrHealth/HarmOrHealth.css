@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rasa:wght@300&display=swap');
+
+
+.HarmOrHealth{
+    background-image: url("../../images/monstera.png");
+    background-position: right bottom;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+
+.harmhealth-title{
+    font-size: 10vmin;
+    color: #01311F;
+    font-family: 'Jacques Francois', serif;
+}
+
+.harmhealth-links-container{
+    display: flex;
+	flex-flow: column;
+    font-family: 'Rasa', serif;
+    font-size: 6vmin;
+    width: 70%;
+}
+
+.harmhealth-links-container p{
+    font-size: 3vmin;
+}
+
+.harmhealth-links{
+    margin-bottom: 3vmin;
+    text-decoration: none;
+    color: #C6AB59;
+}

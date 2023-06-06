@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Rasa:wght@300&display=swap');
+
+body{
+    background-color: #373737;
+}
+
+.landing-logo-container{
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.landing-logo-container img{
+    width: 55vmin;
+    margin-top: 5vmin;
+}
+
+.landing-explanation-container{
+    display: flex;
+	align-items: center;
+	justify-content: center;
+    text-align: center;
+	margin: 0 auto;
+    width: 60%;
+}
+
+.explanation{
+    color: #C6AB59;
+    font-family: 'Rasa', serif;
+    font-size: 5vmin;
+}
+
+.Landing a{
+    display: flex;
+	align-items: center;
+	justify-content: center;
+    text-align: center;
+	margin: 0 auto;
+    text-decoration: none;
+    padding: -1vmin;
+}
+.login-button{
+    background-color: #F4F2EE;
+    padding: 3vmin;
+    width: 24vmin;
+    border-radius: 40vmin;
+    font-size: 5vmin;
+    font-family: 'Rasa', serif;
+}

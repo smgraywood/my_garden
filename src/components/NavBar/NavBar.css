@@ -12,6 +12,8 @@
 	margin: 0 auto;
 	width: 90%;
     z-index: 9999;
+    background-color: transparent;
+    padding-bottom: -10vmin;
 }
 
 .NavBar a {
@@ -21,7 +23,6 @@
 	text-decoration: none;
     border: 2px #C6AB59 solid;
     padding: 1vmin;
-
 }
 
 .NavBar a.active {

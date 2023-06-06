@@ -1,10 +1,11 @@
 import "./AlnwickGarden.css";
 import AlnwickImage from '../../images/alnwick-image.jpeg'
+import NavBar from "../../components/NavBar/NavBar";
 
 function AlnwickGarden() {
 	return (
 		<>
-            
+            <NavBar/>
 			<div className="AlnwickGarden">
 				<h1 className="alnwick-title">Alnwick Garden</h1>
                 <img className= "alnwick-image" src={AlnwickImage}></img>

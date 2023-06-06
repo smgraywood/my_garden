@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Rasa:wght@300&display=swap');
+
+.Search{
+    background-image: url("../../images/monstera.png");
+    background-position: right bottom;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
