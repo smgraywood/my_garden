@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Rasa:wght@300&display=swap');
 
-body{
+.Landing {
     background-color: #373737;
+    background-size: cover;
+    background-position: bottom;
 }
 
 .landing-logo-container{
