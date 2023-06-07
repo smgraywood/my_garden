@@ -3,9 +3,10 @@ import "./Landing.css";
 import SignUpForm from "../../components/SignUpForm/SignUpForm";
 import LoginForm from "../../components/LoginForm/LoginForm";
 import { useState } from "react";
+import { getUser } from "../../utilities/users-service"
 
 function Landing({ setUser, user }) {
-    const [showLogin, setShowLogin] = useState(true);
+    const [showLogin, setShowLogin] = useState(getUser());
 	return (
 		<div className="Landing">
 			<div className="landing-logo-container">
@@ -20,21 +21,6 @@ function Landing({ setUser, user }) {
 					Your very own Alnwick Garden in the Golden State.
 				</p>
 			</div>
-			{showLogin ? (
-				<LoginForm setUser={setUser} user={user} />
-			) : (
-				<SignUpForm setUser={setUser} />
-			)}
-			<h3>Are you a User?</h3>
-			<button
-				className="auth-btn"
-				onClick={() => setShowLogin(!showLogin)}
-			>
-				{showLogin ? "SIGN UP" : "LOG IN"}
-			</button>
-			{/* <a href="/auth/google">
-				<button className="login-button">Login</button>
-			</a> */}
 		</div>
 	);
 }

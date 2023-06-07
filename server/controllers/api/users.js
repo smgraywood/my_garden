@@ -13,6 +13,7 @@ async function create(req, res) {
 		res.json(token);
 	} catch (error) {
 		// if error, we'll send the error to the client
+        console.log(error)
 		res.status(400).json(error); // 400 status = bad request
 	}
 }
